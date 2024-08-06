@@ -1,0 +1,98 @@
+/* Önceden tanımladığımız stil kurallarının yanına ek olarak */
+
+.home-page {
+    margin-top: 20px;
+}
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.slider-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slider-button.prev {
+    left: 10px;
+}
+
+.slider-button.next {
+    right: 10px;
+}
+
+.featured-products {
+    padding: 2rem 0;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.categories {
+    padding: 2rem 0;
+}
+
+.categories h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.products-grid, .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-card, .category-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #007bff;
+}
+
+.view-product {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view-product:hover {
+    background-color: #0056b3;
+}
